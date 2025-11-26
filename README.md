@@ -2,8 +2,8 @@
 
 A clean React + Vite storefront that lists products from the DummyJSON API. It ships with search, category filtering, infinite scrolling, sorting, theming, and a lightweight cart to satisfy the assignment requirements quickly.
 
-https://github.com/your-user/your-repo (replace with your repo URL)  
-Live demo or video: _add a link once deployed_
+
+Live demo : https://nepasys.netlify.app/
 
 ## Features
 
@@ -61,11 +61,4 @@ src/
 └─ main.jsx
 ```
 
-## API Notes
 
-- `GET https://dummyjson.com/products?limit={pageSize}&skip={offset}` powers the infinite scroll.
-- `GET https://dummyjson.com/products/categories` seeds the category dropdown (slug-normalized).
-
-## Deployment
-
-Any static host (Vercel, Netlify, GitHub Pages, etc.) can serve the production build in `dist`. Run `npm run build`, push to GitHub, and wire up your preferred hosting provider. Add the resulting live URL back to this README when ready.
